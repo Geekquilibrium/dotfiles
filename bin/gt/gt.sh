@@ -98,6 +98,10 @@ function gtsubmodule (){
   git submodule add git://github.com/$1/$2.git $3
 }
 
+gtsubinit(){
+	git submodule update --init
+}
+
 alias gtlog='gt log --name-status'
 alias gtlogshort='gt log --pretty=oneline'
 alias gtloggraph='gt log --graph'

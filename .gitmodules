@@ -1,0 +1,3 @@
+[submodule "etc/vim"]
+	path = etc/vim
+	url = git://github.com/Geekquilibrium/vimfiles.git
