@@ -19,8 +19,8 @@ else
   linkar ~/dotfiles/etc/bashrc_help ~/.bashrc_help
 
   # vim
-  linkar ~/dotfiles/etc/vimfiles/vimrc ~/.vimrc
-  linkar ~/dotfiles/etc/vimfiles ~/.vim
+  linkar ~/dotfiles/etc/vim/vimrc ~/.vimrc
+  linkar ~/dotfiles/etc/vim ~/.vim
 
   # git
   #linkar ~/dotfiles/etc/gitconfig ~/.gitconfig
