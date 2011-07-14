@@ -37,7 +37,6 @@ ${COLOR_BLUE}gt${COLOR_NC}move${COLOR_BLUE}last${COLOR_NC}committostaged
 
 alias gt='git'
 alias gtinit='gt init'
-alias gtclone='gt clone'
 alias gtadd='gt add'
 alias gtaddall='gt add .'
 alias gtdiff='gt diff'
@@ -86,19 +85,19 @@ gtcheckouttrackingbranch (){
   gt checkout -tlb $1 origin/$1
 }
 
-function gtclone (){
+_gtclone (){
 	git clone git://github.com/$1/$2.git $3
 }
 
-function gtclonerecursive (){
+_gtclonerecursive (){
   git clone --recursive git://github.com/$1/$2.git $3
 }
 
-function gtsubmodule (){
+_gtsubmodule (){
   git submodule add git://github.com/$1/$2.git $3
 }
 
-gtsubinit(){
+_gtsubinit(){
 	git submodule update --init
 }
 
