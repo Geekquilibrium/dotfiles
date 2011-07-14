@@ -1,8 +1,6 @@
 #!/bin/bash
 
 if [[ -z "$PS1" ]]; then
-  echo -e "${COLOR_RED}You should source this, not run it, for example: source ./linkar${COLOR_NC}"
-else
   linkar(){
     if [[ -e $1 ]]; then
       if [[ -e $2 ]]; then
@@ -12,7 +10,6 @@ else
       ln -s $1 $2
     fi
   }
-
   # bash
   linkar ~/dotfiles/etc/bash_profile ~/.bash_profile
   linkar ~/dotfiles/etc/bashrc ~/.bashrc
@@ -30,4 +27,6 @@ else
   linkar ~/dotfiles/etc/ssh_config ~/.ssh/config
 
   source ~/.bash_profile
+else
+  echo -e "${COLOR_RED}You should source this, not run it, for example: source ./linkar${COLOR_NC}"
 fi

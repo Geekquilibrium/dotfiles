@@ -1,3 +1,144 @@
-[submodule "etc/vim"]
-	path = etc/vim
-	url = git://github.com/Geekquilibrium/vimfiles.git
+[submodule "etc/vim/bundle/solarized"]
+	path = etc/vim/bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "etc/vim/bundle/pep8"]
+	path = etc/vim/bundle/pep8
+	url = git://github.com/vim-scripts/pep8.git
+[submodule "etc/vim/bundle/pydiction"]
+	path = etc/vim/bundle/pydiction
+	url = git://github.com/Geekquilibrium/Pydiction.git
+[submodule "etc/vim/bundle/pydoc"]
+	path = etc/vim/bundle/pydoc
+	url = git://github.com/fs111/pydoc.vim.git
+[submodule "etc/vim/bundle/pyflakes"]
+	path = etc/vim/bundle/pyflakes
+	url = git://github.com/kevinw/pyflakes-vim.git
+[submodule "etc/vim/bundle/pylint"]
+	path = etc/vim/bundle/pylint
+	url = git://github.com/tavisto/pylint.vim.git
+[submodule "etc/vim/bundle/auto_mkdir"]
+	path = etc/vim/bundle/auto_mkdir
+	url = https://github.com/DataWraith/auto_mkdir.git
+[submodule "etc/vim/bundle/piv"]
+	path = etc/vim/bundle/piv
+	url = git://github.com/spf13/PIV.git
+[submodule "etc/vim/bundle/cake"]
+	path = etc/vim/bundle/cake
+	url = git://github.com/vim-scripts/cake.vim.git
+[submodule "etc/vim/bundle/commandt"]
+	path = etc/vim/bundle/commandt
+	url = git://github.com/wincent/Command-T.git
+[submodule "etc/vim/bundle/haml"]
+	path = etc/vim/bundle/haml
+	url = git://github.com/tpope/vim-haml.git
+[submodule "etc/vim/bundle/rails"]
+	path = etc/vim/bundle/rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "etc/vim/bundle/rake"]
+	path = etc/vim/bundle/rake
+	url = git://github.com/tpope/vim-rake.git
+[submodule "etc/vim/bundle/ruby"]
+	path = etc/vim/bundle/ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "etc/vim/bundle/cucumber"]
+	path = etc/vim/bundle/cucumber
+	url = git://github.com/tpope/vim-cucumber.git
+[submodule "etc/vim/bundle/pytest"]
+	path = etc/vim/bundle/pytest
+	url = https://github.com/alfredodeza/pytest.vim.git
+[submodule "etc/vim/bundle/tabular"]
+	path = etc/vim/bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
+[submodule "etc/vim/bundle/snipmate"]
+	path = etc/vim/bundle/snipmate
+	url = git://github.com/Geekquilibrium/snipmate.vim.git
+[submodule "etc/vim/bundle/ragtag"]
+	path = etc/vim/bundle/ragtag
+	url = git://github.com/tpope/vim-ragtag.git
+[submodule "etc/vim/bundle/nerdtree"]
+	path = etc/vim/bundle/nerdtree
+	url = git://github.com/vim-scripts/The-NERD-tree.git
+[submodule "etc/vim/bundle/lusty"]
+	path = etc/vim/bundle/lusty
+	url = git://github.com/sjbach/lusty.git
+[submodule "etc/vim/bundle/gundo"]
+	path = etc/vim/bundle/gundo
+	url = git://github.com/sjl/gundo.vim.git
+[submodule "etc/vim/bundle/minibufexpl"]
+	path = etc/vim/bundle/minibufexpl
+	url = https://github.com/sontek/minibufexpl.vim.git
+[submodule "etc/vim/bundle/ack"]
+	path = etc/vim/bundle/ack
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "etc/vim/bundle/easymotion"]
+	path = etc/vim/bundle/easymotion
+	url = git://github.com/Lokaltog/vim-easymotion.git
+[submodule "etc/vim/bundle/endwise"]
+	path = etc/vim/bundle/endwise
+	url = git://github.com/tpope/vim-endwise.git
+[submodule "etc/vim/bundle/fugitive"]
+	path = etc/vim/bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "etc/vim/bundle/makegreen"]
+	path = etc/vim/bundle/makegreen
+	url = git://github.com/reinh/vim-makegreen.git
+[submodule "etc/vim/bundle/markdown"]
+	path = etc/vim/bundle/markdown
+	url = git://github.com/tpope/vim-markdown.git
+[submodule "etc/vim/bundle/vcscommand"]
+	path = etc/vim/bundle/vcscommand
+	url = git://github.com/vim-scripts/vcscommand.vim.git
+[submodule "etc/vim/bundle/ropevim"]
+	path = etc/vim/bundle/ropevim
+	url = git://github.com/sontek/rope-vim.git
+[submodule "etc/vim/bundle/zencoding"]
+	path = etc/vim/bundle/zencoding
+	url = git://github.com/mattn/zencoding-vim.git
+[submodule "etc/vim/bundle/surround"]
+	path = etc/vim/bundle/surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "etc/vim/bundle/tcomment"]
+	path = etc/vim/bundle/tcomment
+	url = git://github.com/tomtom/tcomment_vim.git
+[submodule "etc/vim/bundle/phpcomplete"]
+	path = etc/vim/bundle/phpcomplete
+	url = git://github.com/shawncplus/phpcomplete.vim.git
+[submodule "etc/vim/bundle/enter-indent"]
+	path = etc/vim/bundle/enter-indent
+	url = git://github.com/acustodioo/vim-enter-indent.git
+[submodule "etc/vim/bundle/git"]
+	path = etc/vim/bundle/git
+	url = git://github.com/motemen/git-vim.git
+[submodule "etc/vim/bundle/php-html-enhanced"]
+	path = etc/vim/bundle/php-html-enhanced
+	url = git://github.com/acustodioo/php.vim-html-enhanced.git
+[submodule "etc/vim/bundle/json"]
+	path = etc/vim/bundle/json
+	url = git://github.com/leshill/vim-json.git
+[submodule "etc/vim/bundle/gist"]
+	path = etc/vim/bundle/gist
+	url = git://github.com/mattn/gist-vim.git
+[submodule "etc/vim/bundle/delimitMate"]
+	path = etc/vim/bundle/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
+[submodule "etc/vim/bundle/coffeescript"]
+	path = etc/vim/bundle/coffeescript
+	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "etc/vim/bundle/preview"]
+	path = etc/vim/bundle/preview
+	url = git://github.com/greyblake/vim-preview.git
+[submodule "etc/vim/bundle/securemodelines"]
+	path = etc/vim/bundle/securemodelines
+	url = git://github.com/ciaranm/securemodelines.git
+[submodule "etc/vim/bundle/scss"]
+	path = etc/vim/bundle/scss
+	url = git://github.com/cakebaker/scss-syntax.vim.git
+[submodule "etc/vim/bundle/textile"]
+	path = etc/vim/bundle/textile
+	url = git://github.com/timcharper/textile.vim.git
+[submodule "etc/vim/bundle/textobj-rubyblock"]
+	path = etc/vim/bundle/textobj-rubyblock
+	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
+[submodule "etc/vim/bundle/textobj-user"]
+	path = etc/vim/bundle/textobj-user
+	url = git://github.com/kana/vim-textobj-user.git
