@@ -1,4 +1,3 @@
-# vim: ft=sh :
 alias yshowcommands="echo -e '${COLOR_LIGHT_PURPLE}Available commands:
 ${COLOR_BLUE}y${COLOR_RED}search ${COLOR_GRAY} Equivalente: sudo yum search \"PACKAGE\"
 ${COLOR_BLUE}y${COLOR_RED}install ${COLOR_GRAY} Equivalente: sudo yum install \"PACKAGE\"

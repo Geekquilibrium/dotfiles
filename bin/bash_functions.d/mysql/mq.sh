@@ -49,12 +49,12 @@ if type -P mysql &>/dev/null ; then # This script only works if you have 'mysql'
   if [ "$OS" = "darwin" ] ; then # OS X only
     mqruntohtml (){
       rm /tmp/query.html
-      mysql -H -u ${MYSQL_DEFAULT_USER} -D ${MYSQL_DEFAULT_DB} -t -vvv -e "$@" | erb ~/cl/bin/mq/table_template.html.erb >> /tmp/query.html
+      mysql -H -u ${MYSQL_DEFAULT_USER} -D ${MYSQL_DEFAULT_DB} -t -vvv -e "$@" | erb ~/dotfiles/bin/bash_functions.d/mysql/table_template.html.erb >> /tmp/query.html
       open /tmp/query.html
     }
     mqalltohtml (){
       rm /tmp/query.html
-      mysql -H -u ${MYSQL_DEFAULT_USER} -D ${MYSQL_DEFAULT_DB} -t -vvv -e "select * from $@" | erb ~/cl/bin/mq/table_template.html.erb >> /tmp/query.html
+      mysql -H -u ${MYSQL_DEFAULT_USER} -D ${MYSQL_DEFAULT_DB} -t -vvv -e "select * from $@" | erb ~/dotfiles/bin/bash_functions.d/mysql/table_template.html.erb >> /tmp/query.html
       open /tmp/query.html
     }
   fi
@@ -93,7 +93,7 @@ if type -P mysql &>/dev/null ; then # This script only works if you have 'mysql'
   }
 
   # Completion
-  complete -o nospace -C ~/dotfiles/bin/mq/complete_database_list.rb mqusedatabase mqdropdatabase
-  complete -o default -C ~/dotfiles/bin/mq/complete_table_list.rb mqall mqallcount mqallgrep mqfirst mqfields mqalltohtml
+  complete -o nospace -C ~/dotfiles/bin/bash_functions.d/mysql/complete_database_list.rb mqusedatabase mqdropdatabase
+  complete -o default -C ~/dotfiles/bin/bash_functions.d/mysql/complete_table_list.rb mqall mqallcount mqallgrep mqfirst mqfields mqalltohtml
 
 fi

@@ -1,4 +1,3 @@
-# git ------------------------------------------------
 alias gtshowcommands="echo -e '${COLOR_LIGHT_PURPLE}Available commands:
 ${COLOR_BLUE}gt
 ${COLOR_BLUE}gt${COLOR_NC}init
@@ -66,53 +65,9 @@ alias gtstashlist='gt stash list'
 alias gtstashapply='gt stash apply'
 alias gtmovelastcommittostaged='gt reset --soft HEAD^'
 
-gtcommit(){
-  gt commit -m "$@"
-}
-
-gtcommitall(){
-  gt commit -a -v -m "$@"
-}
-
-gtpushorigin(){
-  gt push origin $@
-}
-
-gtcheckout (){
-  gt checkout $1
-}
-gtcheckouttrackingbranch (){
-  gt checkout -tlb $1 origin/$1
-}
-
-_gtclone (){
-	git clone git://github.com/$1/$2.git $3
-}
-
-_gtclonerecursive (){
-  git clone --recursive git://github.com/$1/$2.git $3
-}
-
-_gtsubmodule (){
-  git submodule add git://github.com/$1/$2.git $3
-}
-
-_gtsubinit(){
-	git submodule update --init
-}
-
 alias gtlog='gt log --name-status'
 alias gtlogshort='gt log --pretty=oneline'
 alias gtloggraph='gt log --graph'
-gtlogforuser(){
-  gtlog --author=$1
-}
-gtloggrep(){
-  gtlog | grep $@ -B20 -A20
-}
 
-gtgrep(){
-  gt grep -n --ignore-case -e "$@" | highlight green "$@" blue "^.*\:"
-}
 
-complete -C ~/dotfiles/bash/aliases/gt/complete_branch_list.rb -o default gtcheckout gtpushorigin
+complete -C ~/dotfiles/bin/bash_functions.d/git/complete_branch_list.rb -o default gtcheckout gtpushorigin
