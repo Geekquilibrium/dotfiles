@@ -1,6 +1,4 @@
 " Configuração plugins
-  " C
-    let g:C_LocalTemplateFile = $HOME.'/.vim/bundle/c/c-support/templates/Templates' 
   " Gundo
     map ,<F3> :GundoToggle<CR>
     let g:gundo_right = 1

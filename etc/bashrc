@@ -184,7 +184,8 @@ if [ $IS_INTERACTIVE = 'true' ] ; then
   source ~/.bashrc_help
 
   # My alias
-  source  ~/dotfiles/bin/bash_aliases.d/*
+  source  ~/dotfiles/bin/bash_aliases.d/git_alias.sh
+  source  ~/dotfiles/bin/bash_aliases.d/yum.sh
 
   # Minhas funções
   source  ~/dotfiles/bin/bash_functions.d/git/git_functions.sh # Git tools
