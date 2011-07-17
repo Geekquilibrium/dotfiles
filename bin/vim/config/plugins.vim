@@ -2,12 +2,12 @@
   " Gundo
     map ,<F3> :GundoToggle<CR>
     let g:gundo_right = 1
-    let g:gundo_width = 45
+    let g:gundo_width = 37
   " NERDTreeToggle
     map <F3> :NERDTreeToggle<CR>
     let g:NERDTreeHijackNetrw = 0
     let g:NERDTreeWinPos = 'right'
-    let g:NERDTreeWinSize = 45
+    let g:NERDTreeWinSize = 38
   " Command-T
     nnoremap <F2> :CommandT<CR>
     nnoremap ,<F2> :CommandTFlush<CR>
@@ -55,7 +55,7 @@
   " Taglist
     nmap <F4> :TlistToggle<CR>
     let Tlist_Exit_OnlyWindow = 1
-    let Tlist_WinWidth = 40
+    let Tlist_WinWidth = 36
     let Tlist_GainFocus_On_ToggleOpen = 1
     let Tlist_Ctags_Cmd = 'ctags'
     let Tlist_Auto_Highlight_Tag = 1

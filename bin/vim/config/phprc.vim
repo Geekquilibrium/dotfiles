@@ -1,5 +1,5 @@
 "============== General Settings ===============
-set ai et sta sw=2 sts=2 tw=86 ts=2 cc=+2
+set ai et sta sw=2 sts=2 tw=80 ts=2 cc=+2
 set omnifunc=phpcomplete#CompletePHP
 
 "============== Filetype stuff ===============

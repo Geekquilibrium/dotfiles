@@ -1,6 +1,6 @@
 " Arquivo: Configurações vim
 " Criado: Qui 07/Jul/2011 hs 19:42
-" Last Change: 2011 Jul 14 01:08:11
+" Last Change: 2011 Jul 17 14:33:56
 " Autor: Rafael V. dos Santos
 " Site: 
 " Twitter: @geekquilibrium
@@ -44,7 +44,7 @@
   filetype indent on
   syntax on
   
-  colorscheme github
+  colorscheme summerfruit
 
 " Statusline
   set stl+=\[FILE=%{&ff}\|%{&enc}\|%Y\|%t]
@@ -67,7 +67,7 @@
 " Source's Languages
    autocmd BufNewFile,BufRead *.rb source $HOME/.vim/config/rubyrc.vim
    autocmd BufNewFile,BufRead *.py source $HOME/.vim/config/pythonrc.vim
-   autocmd BufNewFile,BufRead *.php,*.css source $HOME/.vim/config/phprc.vim
+   autocmd BufNewFile,BufRead *.php source $HOME/.vim/config/phprc.vim
    autocmd BufNewFile,BufRead *.html,*.js,*.css,*.xml,*.scss source $HOME/.vim/config/webrc.vim
 
   " VIM,SHELL
