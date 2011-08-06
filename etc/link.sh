@@ -15,12 +15,8 @@ if [[ -z "$PS1" ]]; then
   linkar ~/dotfiles/etc/bashrc ~/.bashrc
   linkar ~/dotfiles/etc/bashrc_help ~/.bashrc_help
 
-  # vim
-  linkar ~/dotfiles/bin/vim/vimrc ~/.vimrc
-  linkar ~/dotfiles/bin/vim ~/.vim
-
   # git
-  #linkar ~/dotfiles/etc/gitconfig ~/.gitconfig
+  linkar ~/dotfiles/etc/gitconfig ~/.gitconfig
   linkar ~/dotfiles/etc/gitignore ~/.gitignore
 
   # misc

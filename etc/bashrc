@@ -185,14 +185,15 @@ if [ $IS_INTERACTIVE = 'true' ] ; then
 
   # My alias
   source  ~/dotfiles/bin/bash_aliases.d/git_alias.sh
-  source  ~/dotfiles/bin/bash_aliases.d/yum.sh
+  #source  ~/dotfiles/bin/bash_aliases.d/yum.sh
+  source  ~/dotfiles/bin/bash_aliases.d/apt.sh
 
   # Minhas funções
   source  ~/dotfiles/bin/bash_functions.d/git/git_functions.sh # Git tools
   source  ~/dotfiles/bin/bash_functions.d/mysql/mq.sh # MySQL tools
   source  ~/dotfiles/bin/bash_functions.d/rubyonrails/rr.sh # RubyOnRails tools
   source  ~/dotfiles/bin/bash_functions.d/shell/shell_functions.sh # Shell tools
-  
+
 fi
 
 if [ -f ~/.bashrc_local ]; then
@@ -203,3 +204,6 @@ fi
 export ZZOFF="" # desligue funções indesejadas
 export ZZPATH="/home/rafael/dotfiles/etc/funcoeszz" # script
 source "$ZZPATH"
+
+# RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
