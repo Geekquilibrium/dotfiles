@@ -109,6 +109,8 @@ source ~/dotfiles/etc/bashmarks.sh
 # Editors ----------------------------------------------------------
 export EDITOR='gvim' #Command line
 export GIT_EDITOR='gvim'
+alias e='gvim '
+alias et='gvim -t '
 
 # Sluething----------------------------------------------------
 findportuser() {
